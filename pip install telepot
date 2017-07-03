@@ -1,0 +1,5 @@
+pip install telepot
+import telepot
+token = '356971379:AAHmk3Of9SUDEgio90UNe8AB6TFBCA66Ol8'
+TelegramBot = telepot.Bot(token)
+print TelegramBot.getMe()
